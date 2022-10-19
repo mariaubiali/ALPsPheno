@@ -35,21 +35,25 @@ c
      . IS_A_ONIUM, do_cuts
 
 c     transverse mass squared, one for each W
-      double precision MTtot1, MTtot2, MTtotW1, MTtotW2, MTmin
+      double precision MTtot1, MTtot2, MTtotW1, MTtotW2, MTmin1, MTmin2
       double precision ppl1(0:3),ppv1(0:3),ppl2(0:3),ppv2(0:3)
-      integer i
+      integer i,j,iproc
+      include 'maxamps.inc'
+      integer idup(nexternal,maxproc,maxsproc)
 
       dummy_cuts=.true.
+        
 
       DO i=0,3
-        ppl1(i)=p(i,7)
-        ppv1(i)=p(i,8)
-        ppl2(i)=p(i,10)
-        ppv2(i)=p(i,11)
+        ppl1(i)=p(i,3)
+        ppv1(i)=p(i,4)
+        ppl2(i)=p(i,6)
+        ppv2(i)=p(i,7)
       ENDDO
 
 
-      MTmin = 80.0d0
+      MTmin1 = 70.0d0
+      MTmin2 = 90.0d0
       MTtot1 = 2*dsqrt((ppl1(1)**2 +
      $     ppl1(2)**2)*(ppv1(1)**2 +
      $     ppv1(2)**2)) - 2*(ppl1(1)*ppv1(1) +
@@ -68,20 +72,16 @@ c     transverse mass squared, one for each W
       endif
 
       if (MTtot2.ge.0d0) then
-         MTtotW2=dsqrt(MTtot1)
+         MTtotW2=dsqrt(MTtot2)
       else
          MTtotW2=0d0
       endif
 
-      if(MTtotW1.lt.MTmin) then
+      if((MTtotW1.lt.MTmin1).or.(MTtotW2.lt.MTmin2)) then
          dummy_cuts=.false.
          return
       endif
 
-      if(MTtotW2.lt.MTmin) then
-         dummy_cuts=.false.
-         return
-      endif
       
       return
       end
