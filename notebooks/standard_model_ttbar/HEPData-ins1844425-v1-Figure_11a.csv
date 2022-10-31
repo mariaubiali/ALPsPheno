@@ -1,0 +1,108 @@
+#: table_doi: 10.17182/hepdata.98627.v1/t1
+#: name: Figure 11a
+#: description: Two-body selection. Distributions of $m_{T2}$ in $SR^{2-body}_{110,\infty}$ for (a) different-flavour and (b) same-flavour events satisfying the selection criteria of the given SR, except the one for the presented variable, after the background fit. The contributions from all SM backgrounds are shown as a histogram stack. ''Others'' includes contributions from $VVV$, $t\bar{t} t$, $t\bar{t}$, $t\bar{t} W$, $t\bar{t} WW$, $t\bar{t} WZ$, $t\bar{t} H$, and $tZ$ processes. The hatched bands represent the total statistical and systematic uncertainty. The rightmost bin of each plot includes overflow events. Reference dark-matter signal models are overlayed  for comparison. Red arrows in the upper panels indicate the signal region selection criteria. The bottom panels show the ratio of the observed data to the total SM background prediction, with hatched bands representing the total uncertainty in the background prediction.
+#: data_file: FinalTableSR_PaperSRDF.yaml
+#: keyword reactions: PP --> SQUARK SQUARK
+#: keyword observables: N
+#: keyword phrases: Proton-Proton Scattering | SUSY | Supersymmetry
+#: keyword cmenergies: 13000.0
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,Data,stat +,stat -
+105.0,100.0,110.0,45,7.72,-6.65
+115.0,110.0,120.0,19,5.41,-4.3
+130.0,120.0,140.0,13,4.67,-3.54
+150.0,140.0,160.0,5,3.37,-2.15
+170.0,160.0,180.0,1,2.29,-0.83
+200.0,180.0,220.0,1,2.29,-0.83
+250.0,220.0,280.0,3,2.9,-1.63
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,Standard Model,stat+syst +,stat+syst -
+105.0,100.0,110.0,50.3,5.9,-5.9
+115.0,110.0,120.0,21.7,4.3,-4.3
+130.0,120.0,140.0,16.2,3.2,-3.2
+150.0,140.0,160.0,5.1,0.7,-0.7
+170.0,160.0,180.0,2.8,0.4,-0.4
+200.0,180.0,220.0,3.2,0.4,-0.4
+250.0,220.0,280.0,3.1,0.6,-0.6
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,$t \bar{t}$,stat+syst +,stat+syst -
+105.0,100.0,110.0,44.4,5.8,-5.8
+115.0,110.0,120.0,17.3,4.2,-4.2
+130.0,120.0,140.0,10.0,3.1,-3.1
+150.0,140.0,160.0,0.6,0.4,-0.4
+170.0,160.0,180.0,0.0,0.1,-0.014
+200.0,180.0,220.0,0.1,0.1,-0.1
+250.0,220.0,280.0,0.0,0,0
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,Wt,stat+syst +,stat+syst -
+105.0,100.0,110.0,2.7,2.5,-2.5
+115.0,110.0,120.0,0.4,0.2,-0.2
+130.0,120.0,140.0,0.0,0.326,-0.051
+150.0,140.0,160.0,0.0,0,0
+170.0,160.0,180.0,0.0,0,0
+200.0,180.0,220.0,0.0,0,0
+250.0,220.0,280.0,0.0,0,0
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,Diboson,stat+syst +,stat+syst -
+105.0,100.0,110.0,0.4,0.1,-0.1
+115.0,110.0,120.0,0.6,0.2,-0.2
+130.0,120.0,140.0,0.6,0.2,-0.2
+150.0,140.0,160.0,0.4,0.1,-0.1
+170.0,160.0,180.0,0.0,0.07,-0.05
+200.0,180.0,220.0,0.1,0.1,-0.1
+250.0,220.0,280.0,0.1,0.1,-0.1
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,$t \bar{t}Z$,stat+syst +,stat+syst -
+105.0,100.0,110.0,1.7,0.2,-0.2
+115.0,110.0,120.0,2.3,0.4,-0.4
+130.0,120.0,140.0,3.5,0.6,-0.6
+150.0,140.0,160.0,2.7,0.6,-0.6
+170.0,160.0,180.0,1.9,0.4,-0.4
+200.0,180.0,220.0,1.8,0.3,-0.3
+250.0,220.0,280.0,1.7,0.5,-0.5
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,Others,stat+syst +,stat+syst -
+105.0,100.0,110.0,0.8,0.2,-0.2
+115.0,110.0,120.0,0.8,0.2,-0.2
+130.0,120.0,140.0,1.3,0.3,-0.3
+150.0,140.0,160.0,1.0,0.2,-0.2
+170.0,160.0,180.0,0.7,0.2,-0.2
+200.0,180.0,220.0,0.6,0.2,-0.2
+250.0,220.0,280.0,0.5,0.2,-0.2
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,FNP,stat+syst +,stat+syst -
+105.0,100.0,110.0,0.0,0,0
+115.0,110.0,120.0,0.0,0,0
+130.0,120.0,140.0,0.5,0.5,-0.5
+150.0,140.0,160.0,0.0,0,0
+170.0,160.0,180.0,0.0,0,0
+200.0,180.0,220.0,0.3,0.2,-0.2
+250.0,220.0,280.0,0.5,0.4,-0.4
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,"signal($m_a$ = 150 GeV,$m_\chi$ = 1 GeV)",stat +,stat -
+105.0,100.0,110.0,3.23,0.31,-0.31
+115.0,110.0,120.0,2.97,0.3,-0.3
+130.0,120.0,140.0,5.15,0.38,-0.38
+150.0,140.0,160.0,3.97,0.34,-0.34
+170.0,160.0,180.0,2.96,0.29,-0.29
+200.0,180.0,220.0,3.23,0.31,-0.31
+250.0,220.0,280.0,2.64,0.28,-0.28
+
+#: $\sqrt{s}$ [GeV],,,13000.0
+$m_{T2}$,$m_{T2}$ LOW,$m_{T2}$ HIGH,"signal($m_\phi$ = 150 GeV,$m_\chi$ = 1 GeV)",stat +,stat -
+105.0,100.0,110.0,4.46,0.55,-0.55
+115.0,110.0,120.0,3.3,0.41,-0.41
+130.0,120.0,140.0,5.16,0.52,-0.52
+150.0,140.0,160.0,3.9,0.46,-0.46
+170.0,160.0,180.0,2.88,0.4,-0.4
+200.0,180.0,220.0,2.95,0.39,-0.39
+250.0,220.0,280.0,1.55,0.3,-0.3
+
