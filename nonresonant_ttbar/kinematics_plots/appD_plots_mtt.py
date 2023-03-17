@@ -71,9 +71,9 @@ ax_ratio.set_xlim([250,3.5e3])
 ax.set_yscale('log')
 #ax_ratio.set_yscale('log')
 plt.tight_layout()
+ax.legend(loc='upper right')
 plt.savefig('appD_mtt.pdf')
 
-ax.legend(loc='upper right')
 
 
 
