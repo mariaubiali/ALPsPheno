@@ -4,9 +4,9 @@
 
 The non-resonant ALP analysis with ttbar data for CMS (mtt) and ATLAS (boosted pt) can be found in the following directories:
 
--  CMS_mtt,
+-  ATLAS_boosted,
 
--  ATLAS_boosted.
+-  CMS_mtt.
 
 
 Each has the same structure:
@@ -29,4 +29,3 @@ Plots and information for appendix D can be found in the directories
 
 - partonic_checks
 
--
