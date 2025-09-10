@@ -1,0 +1,6 @@
+This repository contains the notebooks and datafiles for the global analysis of ALP-mediated multiboson final states.
+So far it includes gamma gamma, gamma Z, ZZ and WW final states and a preliminary combined exclusion plot.
+The signal events are generated in MadGraph with the lhe files in the respective subfolder of MadGraph. Note that you have to unzip the lhe.gz files for python to read them.
+The lhe files for ZZ and WW are missing, because even in their compressed form they are too big for github to handle them. If you need them, I can send them via e-mail.
+
+The analysis of gg_dijet is currently WIP, I have generated the signal events and extracted the measurements, but we still have to generate the SM background.
