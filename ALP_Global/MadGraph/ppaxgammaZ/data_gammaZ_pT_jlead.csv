@@ -1,0 +1,23 @@
+#: table_doi: 10.17182/hepdata.102954.v1/t4;;;;;
+#: name: Table 3b;;;;;
+#: description: The measured single-differential cross sections in leading jet transverse momenta for the pure electroweak Z$\gamma$jj production. The total uncertainty includes the stastical uncertianty and the systematic uncertainty;while the uncertainty of the predicted results is the theoretical uncertainty from the MadGraph5_aMC@NLO. The last bin includes overflow events.;;;;
+#: data_file: table3b.yaml;;;;;
+#: keyword reactions: P P --> Z photon 2j --> 2l photon 2j;;;;;
+#: keyword observables: SIG;;;;;
+#: keyword cmenergies: 13000.0;;;;;
+#: keyword phrases: Cross Section | Proton-Proton Scattering | Zgamma Production;;;;;
+#: Luminosity [fb^-1];;;137;;
+#: SQRT(S) [GeV];;;13000.0;;
+$p_{\mathrm{T}}^{\mathrm{j}_{1}}$ [GeV];$p_{\mathrm{T}}^{\mathrm{j}_{1}}$ [GeV] LOW;$p_{\mathrm{T}}^{\mathrm{j}_{1}}$ [GeV] HIGH;Observed d$\sigma$/d$p_{\mathrm{T}}$ [fb/GeV]; +; -
+90.0;30;150;19;0.01;-0.01
+200.0;150;250;0.0133;5;-5
+300.0;250;350;0.0056;0.0025;-0.0025
+575.0;350;800;0.00109;0.0036;-0.0036
+;;;;;
+#: Luminosity [fb^-1];;;137;;
+#: SQRT(S) [GeV];;;13000.0;;
+$p_{\mathrm{T}}^{\mathrm{j}_{1}}$ [GeV];$p_{\mathrm{T}}^{\mathrm{j}_{1}}$ [GeV] LOW;$p_{\mathrm{T}}^{\mathrm{j}_{1}}$ [GeV] HIGH;Predicted d$\sigma$/d$p_{\mathrm{T}}$ [fb/GeV]; +; -
+90.0;30;150;0.0176;0.0028;-0.0028
+200.0;150;250;0.0149;0.0026;-0.0026
+300.0;250;350;0.0052;1;-1
+575.0;350;800;0.00059;0.00014;-0.00014
